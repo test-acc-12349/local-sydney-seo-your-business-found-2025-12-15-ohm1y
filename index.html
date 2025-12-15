@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dominate the Sydney market with Local Sydney SEO. We help businesses get found by local customers through citation building, GMB optimization, and geo-targeted campaigns.">
+    <title>Local Sydney SEO | Your Business, Found</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        gray: {
+                            850: '#1f2937',
+                            900: '#111827',
+                            950: '#030712',
+                        },
+                        primary: {
+                            400: '#818cf8',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                        },
+                        accent: {
+                            400: '#2dd4bf',
+                            500: '#14b8a6',
+                        }
+                    },
+                    animation: {
+                        'blob': 'blob 7s infinite',
+                    },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f172a; /* Slate 900 base */
+            color: #f8fafc;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #818cf8, #2dd4bf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 top-0 transition-all duration-300 bg-gray-900/90 backdrop-blur-md border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold flex items-center gap-2 group">
+                <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-teal-400 rounded-lg flex items-center justify-center text-white shadow-lg group-hover:shadow-indigo-500/50 transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </div>
+                <span class="tracking-tight hover:text-indigo-400 transition-colors duration-300">Sydney<span class="font-extrabold text-indigo-500">SEO</span></span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#features" class="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-300 hover:tracking-wide">Features</a>
+                <a href="#benefits" class="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-300 hover:tracking-wide">Benefits</a>
+                <a href="#about" class="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-300 hover:tracking-wide">About</a>
+                <a href="#testimonials" class="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-300 hover:tracking-wide">Reviews</a>
+                <a href="#faq" class="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-300 hover:tracking-wide">FAQ</a>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="hidden md:block">
+                <a href="https://sseo.com" class="px-6 py-2.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm shadow-[0_4px_14px_0_rgba(99,102,241,0.39)] hover:shadow-[0_6px_20px_rgba(99,102,241,0.23)] hover:-translate-y-0.5 transition-all duration-300">
+                    Get Started
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button text-gray-300 hover:text-white focus:outline-none transition-colors duration-300">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-gray-900 border-b border-gray-800 absolute w-full left-0 top-full shadow-2xl">
+            <div class="flex flex-col px-6 py-8 space-y-4 text-center">
+                <a href="#features" class="text-gray-300 hover:text-indigo-400 font-medium text-lg transition-colors">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-indigo-400 font-medium text-lg transition-colors">Benefits</a>
+                <a href="#about" class="text-gray-300 hover:text-indigo-400 font-medium text-lg transition-colors">About Us</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-indigo-400 font-medium text-lg transition-colors">Reviews</a>
+                <a href="#faq" class="text-gray-300 hover:text-indigo-400 font-medium text-lg transition-colors">FAQ</a>
+                <hr class="border-gray-800 my-2">
+                <a href="https://sseo.com" class="inline-block px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold shadow-lg w-full">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <!-- Abstract Background Shapes -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-500/20 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob"></div>
+            <div class="absolute top-0 left-20 w-72 h-72 bg-teal-500/20 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+            <div class="absolute -bottom-32 left-1/3 w-80 h-80 bg-purple-500/20 rounded-full mix-blend-screen filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
+            <div class="absolute inset-0 bg-gray-900/40 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=')]"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-800/50 border border-gray-700/50 backdrop-blur-sm mb-8 animate-fade-in-up">
+                <span class="flex h-2 w-2 relative">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-teal-500"></span>
+                </span>
+                <span class="text-xs uppercase tracking-widest font-semibold text-teal-400">#1 Agency in Sydney</span>
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
+                Local Sydney SEO: <br>
+                <span class="gradient-text">Your Business, Found.</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Connect with local customers actively searching for your services in real-time. We engineer precision-targeted campaigns that dominate search results and drive tangible revenue growth.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://sseo.com" class="px-8 py-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-lg shadow-[0_10px_40px_-10px_rgba(79,70,229,0.5)] hover:shadow-indigo-500/50 hover:scale-105 transition-all duration-300">
+                    Boost My Rankings
+                </a>
+                <a href="#features" class="px-8 py-4 rounded-full bg-gray-800 hover:bg-gray-700 text-white font-bold text-lg border border-gray-700 hover:border-gray-600 shadow-lg hover:translate-y-px transition-all duration-300 flex items-center justify-center gap-2 group">
+                    View Features
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-900 relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Dominating The Digital Landscape</h2>
+                <div class="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-teal-500 mx-auto rounded-full mb-6"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">Comprehensive tools and strategies designed to put your business on the map—literally.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="group glass-card p-8 rounded-2xl hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-indigo-500/10 border border-gray-700/50">
+                    <div class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-indigo-500/20 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-indigo-400 group-hover:text-indigo-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Google My Business Optimization</h3>
+                    <p class="text-gray-400 leading-relaxed">Turn your GMB profile into a customer magnet. We fully optimize your listing with keyword-rich descriptions, accurate categorization, and high-quality imagery to ensure you capture the 3-Pack.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="group glass-card p-8 rounded-2xl hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-teal-500/10 border border-gray-700/50">
+                    <div class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-teal-500/20 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-teal-400 group-hover:text-teal-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Local Citation Building</h3>
+                    <p class="text-gray-400 leading-relaxed">Establish trust and authority. We build consistent, high-quality citations across reputable Australian and specific Sydney-based directories to fortify your local search presence.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="group glass-card p-8 rounded-2xl hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/10 border border-gray-700/50">
+                    <div class="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-purple-400 group-hover:text-purple-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Geo-Targeted Campaigns</h3>
+                    <p class="text-gray-400 leading-relaxed">Stop wasting budget on broad audiences. Our campaigns are surgically precise, targeting specific suburbs and demographics within Sydney to deliver the highest conversion rates possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-800/50">
+        <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl opacity-30 blur-lg"></div>
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sydney SEO Team" class="relative rounded-2xl shadow-2xl border border-gray-700/50 w-full object-cover h-[400px]">
+            </div>
+            
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Built in Sydney, For Sydney</h2>
+                <div class="w-20 h-1.5 bg-indigo-500 rounded-full mb-8"></div>
+                
+                <p class="text-gray-300 mb-6 text-lg leading-relaxed">
+                    Local Sydney SEO was founded in 2015 within a small co-working space in Surry Hills, born from a frustration with generic, one-size-fits-all marketing agencies. We saw countless brilliant local businesses struggling to be heard above the noise of corporate giants. From day one, our goal was to level the playing field, utilizing data-driven strategies and a deep understanding of the local market to give small and medium enterprises the visibility they deserve.
+                </p>
+                <p class="text-gray-300 mb-8 text-lg leading-relaxed">
+                    Our mission is simple: to connect quality local providers with the neighbours who need them most. We believe in transparency, integrity, and results that you can actually see in your bottom line. We don't just chase vanity metrics like clicks or impressions; our core values centre around sustainable growth, community connection, and delivering a tangible return on investment that helps your business thrive in the competitive Sydney landscape.
+                </p>
+                
+                <a href="#contact" class="inline-flex items-center gap-2 text-indigo-400 font-bold hover:text-indigo-300 transition-colors">
+                    Meet the team <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <span class="text-indigo-400 font-semibold tracking-wider uppercase text-sm">Why Choose Us</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Real Results for Real Businesses</h2>
+                <div class="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-teal-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="space-y-20">
+                <!-- Benefit 1 -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="w-full md:w-1/2 order-2 md:order-1">
+                        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700/50 shadow-lg relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl -mr-10 -mt-10 transition-all duration-500 group-hover:bg-indigo-500/20"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-indigo-400 mb-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                            </svg>
+                            <h3 class="text-2xl font-bold mb-4">More Foot Traffic</h3>
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Experience a noticeable increase in physical visits to your store or office. By optimizing for "near me" searches and local intent, we ensure that when customers are ready to buy, your door is the one they walk through.
+                            </p>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> 25% avg increase in walk-ins</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> Capture "near me" intent</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center">
+                        <div class="relative">
+                            <div class="absolute -inset-4 bg-indigo-500/30 rounded-full blur-xl"></div>
+                            <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="More Foot Traffic" class="relative rounded-2xl shadow-2xl w-full max-w-md object-cover transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative">
+                            <div class="absolute -inset-4 bg-teal-500/30 rounded-full blur-xl"></div>
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Improved Google Maps Ranking" class="relative rounded-2xl shadow-2xl w-full max-w-md object-cover transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700/50 shadow-lg relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-2xl -mr-10 -mt-10 transition-all duration-500 group-hover:bg-teal-500/20"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-teal-400 mb-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <h3 class="text-2xl font-bold mb-4">Improved Local Maps Ranking</h3>
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Dominate the "Local Pack" (the map section at the top of Google). Being in the top 3 spots on Maps exponentially increases visibility and trust, making you the default choice for local searchers.
+                            </p>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> Top 3 Map Pack placement</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> Increased brand authority</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="w-full md:w-1/2 order-2 md:order-1">
+                        <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700/50 shadow-lg relative overflow-hidden group">
+                            <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl -mr-10 -mt-10 transition-all duration-500 group-hover:bg-purple-500/20"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-purple-400 mb-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                            </svg>
+                            <h3 class="text-2xl font-bold mb-4">Hyper-Targeted Leads</h3>
+                            <p class="text-gray-400 leading-relaxed mb-4">
+                                Quality over quantity. We attract users who are searching specifically for your services in your area. These leads have higher conversion rates because they have immediate intent and need.
+                            </p>
+                            <ul class="text-gray-300 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> Higher conversion rates</li>
+                                <li class="flex items-center gap-2"><i class="fas fa-check text-green-400 text-sm"></i> Lower acquisition cost</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center">
+                        <div class="relative feature-image-container">
+                            <div class="absolute -inset-4 bg-purple-500/30 rounded-full blur-xl"></div>
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Targeted Leads" class="relative rounded-2xl shadow-2xl w-full max-w-md object-cover transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800/30">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+                <div class="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-teal-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700/50 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div class="flex text-yellow-500 mb-4 gap-1">
+                        <i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 text-sm leading-relaxed">"Since working with Local Sydney SEO, our dental practice has seen a 40% increase in new patient bookings. The GMB optimization was a game-changer for us."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-indigo-600 h-10 w-10 rounded-full flex items-center justify-center font-bold">JD</div>
+                        <div>
+                            <h4 class="font-bold text-sm">James Dale</h4>
+                            <p class="text-xs text-gray-500">Owner, Dale Dental</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700/50 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div class="flex text-yellow-500 mb-4 gap-1">
+                        <i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 text-sm leading-relaxed">"We were invisible on Google Maps before. Now we rank #1 for 'plumber Parramatta'. The leads are hyper-targeted and actually convert."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-teal-600 h-10 w-10 rounded-full flex items-center justify-center font-bold">SC</div>
+                        <div>
+                            <h4 class="font-bold text-sm">Sarah Connors</h4>
+                            <p class="text-xs text-gray-500">Manager, Flow Plumbing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700/50 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div class="flex text-yellow-500 mb-4 gap-1">
+                        <i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 text-sm leading-relaxed">"Incredible ROI. The geo-targeted campaigns helped us expand into neighboring suburbs without wasting budget. Highly recommend the team!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-purple-600 h-10 w-10 rounded-full flex items-center justify-center font-bold">MR</div>
+                        <div>
+                            <h4 class="font-bold text-sm">Mike Ross</h4>
+                            <p class="text-xs text-gray-500">Director, Ross Renovations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700/50 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div class="flex text-yellow-500 mb-4 gap-1">
+                        <i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i><i class="fas fa-star text-sm"></i>
+                    </div>
+                    <p class="text-gray-300 mb-6 text-sm leading-relaxed">"Professional, transparent, and effective. They didn't just promise results; they delivered foot traffic to our café within the first month."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-pink-600 h-10 w-10 rounded-full flex items-center justify-center font-bold">EL</div>
+                        <div>
+                            <h4 class="font-bold text-sm">Emma Lee</h4>
+                            <p class="text-xs text-gray-500">Owner, The Bean Scene</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-6 max-w-3xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <div class="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-teal-500 mx-auto rounded-full mb-6"></div>
+                <p class="text-gray-400">Everything you need to know about our local SEO services.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-800 rounded-xl overflow-hidden border border-gray-700/50">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-750 transition-colors focus:outline-none">
+                        <span class="font-semibold text-lg text-white">How long does it take to see results?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-indigo-400 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-800/50 border-t border-gray-700/50">
+                        <div class="p-6 text-gray-400 leading-relaxed">
+                            While SEO is a long-term strategy, many of our clients start seeing initial improvements in Google Maps visibility within 30-60 days. Comprehensive ranking improvements typically mature around the 3-6 month mark, depending on the competitiveness of your industry and current website health.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-800 rounded-xl overflow-hidden border border-gray-700/50">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-750 transition-colors focus:outline-none">
+                        <span class="font-semibold text-lg text-white">Do you work with specific industries?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-indigo-400 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-800/50 border-t border-gray-700/50">
+                        <div class="p-6 text-gray-400 leading-relaxed">
+                            We specialize in local businesses across Sydney. This includes trades (plumbers, electricians), professional services (lawyers, dental, medical), hospitality (cafes, restaurants), and retail. If your business relies on local customers, we have the strategies to help you grow.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-800 rounded-xl overflow-hidden border border-gray-700/50">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-750 transition-colors focus:outline-none">
+                        <span class="font-semibold text-lg text-white">What is the difference between standard SEO and Local SEO?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-indigo-400 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-800/50 border-t border-gray-700/50">
+                        <div class="p-6 text-gray-400 leading-relaxed">
+                            Standard SEO focuses on ranking globally or nationally. Local SEO focuses on "near me" searches and ranking in specific geographic locations (e.g., "Cafe Surry Hills"). We optimize your Google My Business profile, build local citations, and create geo-specific content to capture customers in your immediate vicinity.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-800 rounded-xl overflow-hidden border border-gray-700/50">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-750 transition-colors focus:outline-none">
+                        <span class="font-semibold text-lg text-white">How do you track performance?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-indigo-400 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-800/50 border-t border-gray-700/50">
+                        <div class="p-6 text-gray-400 leading-relaxed">
+                            We believe in total transparency. You will receive a monthly report detailing your keyword rankings, Google Maps visibility, website traffic, and more importantly—calls and direction requests generated. We also provide a live dashboard so you can check your progress at any time.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-800 rounded-xl overflow-hidden border border-gray-700/50">
+                    <button class="faq-question w-full flex justify-between items-center p-6 text-left hover:bg-gray-750 transition-colors focus:outline-none">
+                        <span class="font-semibold text-lg text-white">Is there a contract lock-in?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-indigo-400 transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-800/50 border-t border-gray-700/50">
+                        <div class="p-6 text-gray-400 leading-relaxed">
+                            We are confident in our results, so we generally work on flexible terms. While we recommend a 6 to 12-month strategy for best results, we have options that don't require long-term lock-in contracts. Our goal is to retain you as a client through performance, not paperwork.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 relative overflow-hidden flex items-center justify-center bg-gray-900">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/90 to-indigo-900/80 z-10"></div>
+            <div class="w-full h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-20 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">Ready to Dominate Local Search?</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">Get a free local SEO audit today and see exactly how we can help your business grow.</p>
+            <a href="https://sseo.com" class="inline-block px-10 py-5 rounded-full bg-white text-indigo-600 font-bold text-lg shadow-lg hover:bg-gray-100 hover:scale-105 hover:shadow-white/20 transition-all duration-300">
+                Start My Free Audit
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <!-- Contact Form Section - Centered Card Layout -->
+    <section id="contact" class="py-20" style="background: linear-gradient(to bottom, #ffffff, #f9fafb);">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #111827;">Get in Touch</h2>
+          <p class="text-lg max-w-2xl mx-auto opacity-75" style="color: #111827;">
+            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+          </p>
+        </div>
+
+        <div class="rounded-2xl shadow-xl p-8 md:p-12" style="background: #ffffff;">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-6">
+            <input type="hidden" name="access_key" value="0b917c63-84c9-466a-b417-2cad89801d7f">
+            <input type="hidden" name="redirect" value="false">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Full Name <span style="color: #ef4444;">*</span>
+              </label>
+              <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                required 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 0 0 3px #3b82f620'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="John Doe"
+              >
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Email Address <span style="color: #ef4444;">*</span>
+              </label>
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                required 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 0 0 3px #3b82f620'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="john@example.com"
+              >
+            </div>
+
+            <div>
+              <label for="phone" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Phone Number
+              </label>
+              <input 
+                type="tel" 
+                name="phone" 
+                id="phone" 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 0 0 3px #3b82f620'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="+1 (555) 000-0000"
+              >
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Message <span style="color: #ef4444;">*</span>
+              </label>
+              <textarea 
+                name="message" 
+                id="message" 
+                required 
+                rows="5" 
+                class="w-full px-4 py-3 border rounded-2xl outline-none resize-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 0 0 3px #3b82f620'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="Tell us about your project or inquiry..."
+              ></textarea>
+            </div>
+
+            <div class="pt-4">
+              <button 
+                type="submit" 
+                id="submit-btn"
+                class="w-full font-semibold py-4 px-8 rounded-2xl transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl"
+                style="background: #3b82f6; color: #ffffff;"
+              >
+                Send Message
+              </button>
+            </div>
+            
+            <div id="form-message" class="mt-4 p-4 rounded-2xl hidden" style="background: #10b981; color: #ffffff;">
+              ✓ Message sent successfully!
+            </div>
+          </form>
+          
+          <script>
+            (function() {
+              const form = document.getElementById('contact-form');
+              const submitBtn = document.getElementById('submit-btn');
+              const messageDiv = document.getElementById('form-message');
+              
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+                
+                try {
+                  const formData = new FormData(form);
+                  const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                  });
+                  
+                  const result = await response.json();
+                  
+                  if (result.success) {
+                    form.reset();
+                    messageDiv.classList.remove('hidden');
+                    submitBtn.textContent = 'Sent';
+                    
+                    setTimeout(() => {
+                      messageDiv.classList.add('hidden');
+                      submitBtn.disabled = false;
+                      submitBtn.textContent = 'Send Message';
+                    }, 5000);
+                  } else {
+                    throw new Error('Submission failed');
+                  }
+                } catch (error) {
+                  submitBtn.disabled = false;
+                  submitBtn.textContent = 'Send Message';
+                  messageDiv.style.background = '#ef4444';
+                  messageDiv.textContent = '✗ Failed to send. Please try again.';
+                  messageDiv.classList.remove('hidden');
+                  
+                  setTimeout(() => {
+                    messageDiv.classList.add('hidden');
+                    messageDiv.style.background = '#10b981';
+                    messageDiv.textContent = '✓ Message sent successfully!';
+                  }, 5000);
+                }
+              });
+            })();
+          </script>
+        </div>
+
+        <div class="mt-12 text-center opacity-75">
+          <p style="color: #111827;">
+            Or email us directly at <a href="mailto:hello@example.com" class="font-semibold hover:opacity-80 transition-opacity" style="color: #3b82f6;">hello@example.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  <footer class="bg-gray-950 pt-20 pb-10 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Branding -->
+                <div>
+                    <a href="#" class="text-2xl font-bold flex items-center gap-2 mb-6 text-white">
+                        <div class="w-8 h-8 bg-gradient-to-br from-indigo-500 to-teal-400 rounded-md flex items-center justify-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                        </div>
+                        <span>Sydney<span class="text-indigo-500">SEO</span></span>
+                    </a>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Helping Sydney locals connect with the businesses they need. Data-driven, transparent, and results-focused.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-indigo-600 hover:text-white transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Services</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">Local SEO</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">GMB Optimization</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">Link Building</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">Content Strategy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Company</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#about" class="text-gray-400 hover:text-indigo-400 transition-colors">About Us</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-indigo-400 transition-colors">Reviews</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-indigo-400 transition-colors">Blog</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-indigo-400 transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-gray-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-indigo-500 shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                            <span>test@test.com</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-gray-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-indigo-500 shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <span>Surry Hills, Sydney NSW 2010</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2025 Local Sydney SEO. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="privacy.html" class="text-gray-500 hover:text-indigo-400 text-sm transition-colors">Privacy Policy</a>
+                    <a href="terms.html" class="text-gray-500 hover:text-indigo-400 text-sm transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all others
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+
+            // Intersection Observer for Animation
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section > div').forEach(section => {
+                section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10', 'ease-out');
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
